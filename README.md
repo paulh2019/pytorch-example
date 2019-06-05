@@ -18,7 +18,7 @@ If you would like to try out our example, download the repository and extract `m
 ## Code overview
 
 ###### csvreader
-Our main goal with this network was to be able to see the images we were testing and training on. This meant that rather than downloading the MNIST database using pytorch's dataloader, we downloaded the images themselves and created a csv to complement them. Our csv included the paths to each image, as well as the ground truth label indicating which class (digit) that the image was.
+Our main goal with this network was to be able to see the images we were testing and training on. This meant that rather than downloading the MNIST database using pytorch's dataloader, we downloaded the images themselves and created a csv to complement them. Our csv included the paths to each image, as well as the ground truth label indicating which class (digit) that the image represented.
 
 This class reads in a csv. The csv is formatted with the first line as a header, and every subsequent line having an image path (relative from the location of this python file), followed by the ground truth classification of that image (0-9 for MNIST).
 
